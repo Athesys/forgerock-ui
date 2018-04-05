@@ -427,6 +427,184 @@
 								https://github.com/codemirror/{artifactId}/archive/{version}.0.{packaging}
 							</downloadUrl>
 						</artifactItem>
+						
+						
+						
+						<!-- New artifact for OpenIDM -->
+						<artifactItem>
+							<groupId>org.forgerock.commons.ui.libs</groupId>
+							<artifactId>jsoneditor</artifactId>
+							<version>0.7.9</version>
+							<packaging>js</packaging>
+							<classifier>min</classifier>
+							<downloadUrl>
+								https://cdnjs.cloudflare.com/ajax/libs/json-editor/{version}/{artifactId}.{classifier}.{packaging}
+							</downloadUrl>
+						</artifactItem>
+						
+						<artifactItem>
+							<groupId>org.forgerock.commons.ui.libs</groupId>
+							<artifactId>jquery-cron</artifactId>
+							<version>0.1.4.1</version>
+							<packaging>js</packaging>
+							<downloadUrl>
+								https://raw.githubusercontent.com/shawnchin/{artifactId}/v{version}/cron/{artifactId}.{packaging}
+							</downloadUrl>
+						</artifactItem>
+						
+						<artifactItem>
+							<groupId>org.forgerock.commons.ui.libs</groupId>
+							<artifactId>bootstrap-tabdrop</artifactId>
+							<version>master</version>
+							<packaging>js</packaging>
+							<downloadUrl>
+								https://raw.githubusercontent.com/jmschabdach/{artifactId}/{version}/js/{artifactId}.{packaging}
+							</downloadUrl>
+						</artifactItem>
+						
+						<artifactItem>
+							<groupId>org.forgerock.commons.ui.libs</groupId>
+							<artifactId>d3</artifactId>
+							<version>3.5.5</version>
+							<packaging>js</packaging>
+							<classifier>min</classifier>
+							<downloadUrl>
+								https://cdnjs.cloudflare.com/ajax/libs/{artifactId}/{version}/{artifactId}.{classifier}.{packaging}
+							</downloadUrl>
+						</artifactItem>
+						
+						<artifactItem>
+							<groupId>org.forgerock.commons.ui.libs</groupId>
+							<artifactId>dimple</artifactId>
+							<version>2.1.2</version>
+							<packaging>js</packaging>
+							<classifier>min</classifier>
+							<downloadUrl>
+								https://cdnjs.cloudflare.com/ajax/libs/{artifactId}/{version}/{artifactId}.latest.{classifier}.{packaging}
+							</downloadUrl>
+						</artifactItem>
+						
+						<artifactItem>
+							<groupId>org.forgerock.commons.ui.libs</groupId>
+							<artifactId>dimple</artifactId>
+							<version>2.1.2</version>
+							<packaging>js</packaging>
+							<classifier>min</classifier>
+							<downloadUrl>
+								https://cdnjs.cloudflare.com/ajax/libs/{artifactId}/{version}/{artifactId}.latest.{classifier}.{packaging}
+							</downloadUrl>
+						</artifactItem>
+						
+						<artifactItem>
+							<groupId>org.forgerock.commons.ui.libs</groupId>
+							<artifactId>fontawesome-iconpicker</artifactId>
+							<version>1.0.0</version>
+							<packaging>js</packaging>
+							<classifier>min</classifier>
+							<downloadUrl>
+								https://cdnjs.cloudflare.com/ajax/libs/{artifactId}/{version}/{packaging}/{artifactId}.{classifier}.{packaging}
+							</downloadUrl>
+						</artifactItem>
+						
+						<artifactItem>
+							<groupId>org.forgerock.commons.ui.libs</groupId>
+							<artifactId>fontawesome-iconpicker</artifactId>
+							<version>1.0.0</version>
+							<packaging>css</packaging>
+							<classifier>min</classifier>
+							<downloadUrl>
+								https://cdnjs.cloudflare.com/ajax/libs/{artifactId}/{version}/{packaging}/{artifactId}.{classifier}.{packaging}
+							</downloadUrl>
+						</artifactItem>
+						
+						<artifactItem>
+							<groupId>org.forgerock.commons.ui.libs</groupId>
+							<artifactId>dragula</artifactId>
+							<version>3.6.7</version>
+							<packaging>css</packaging>
+							<classifier>min</classifier>
+							<downloadUrl>
+								https://cdnjs.cloudflare.com/ajax/libs/dragula/{version}/{artifactId}.{classifier}.{packaging}							</downloadUrl>
+						</artifactItem>
+						
+						<artifactItem>
+							<groupId>org.forgerock.commons.ui.libs</groupId>
+							<artifactId>r</artifactId>
+							<version>2.1.10</version>
+							<packaging>js</packaging>
+							<downloadUrl>
+								https://raw.githubusercontent.com/requirejs/{artifactId}.{packaging}/{version}/dist/{artifactId}.{packaging}
+							</downloadUrl>
+						</artifactItem>
+						
+						<artifactItem>
+							<groupId>org.forgerock.commons.ui.libs</groupId>
+							<artifactId>moment-timezone-with-data</artifactId>
+							<version>0.5.4</version>
+							<packaging>js</packaging>
+							<classifier>min</classifier>							
+							<downloadUrl>
+								https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/{version}/{artifactId}.{classifier}.{packaging}
+							</downloadUrl>
+						</artifactItem>
+						
+						<artifactItem>
+							<groupId>org.forgerock.commons.ui.libs</groupId>
+							<artifactId>bootstrap-datetimepicker</artifactId>
+							<version>4.14.30</version>
+							<packaging>js</packaging>
+							<classifier>min</classifier>							
+							<downloadUrl>
+								https://cdnjs.cloudflare.com/ajax/libs/{artifactId}/{version}/{packaging}/{artifactId}.{classifier}.{packaging}
+							</downloadUrl>
+						</artifactItem>
+						
+						<artifactItem>
+							<groupId>org.forgerock.commons.ui.libs</groupId>
+							<artifactId>bootstrap-datetimepicker</artifactId>
+							<version>4.14.30</version>
+							<packaging>css</packaging>
+							<classifier>min</classifier>							
+							<downloadUrl>
+								https://cdnjs.cloudflare.com/ajax/libs/{artifactId}/{version}/{packaging}/{artifactId}.{classifier}.{packaging}
+							</downloadUrl>
+						</artifactItem>		
+						
+						
+						<artifactItem>
+							<groupId>org.forgerock.commons.ui.libs</groupId>
+							<artifactId>ldapjs-filter</artifactId>
+							<version>2253</version>
+							<packaging>js</packaging>
+							<classifier>min</classifier>							
+							<downloadUrl>
+								file://${project.basedir}/forgerock-ui-commons/lib/{artifactId}-{version}-{classifier}.{packaging}			
+							</downloadUrl>
+						</artifactItem>		
+						
+						<artifactItem>
+							<groupId>org.forgerock.commons.ui.libs</groupId>
+							<artifactId>jquery-ui</artifactId>
+							<version>1.11.1</version>
+							<packaging>js</packaging>
+							<classifier>min</classifier>							
+							<downloadUrl>
+								https://cdnjs.cloudflare.com/ajax/libs/jqueryui/{version}/{artifactId}.{classifier}.{packaging}	
+							</downloadUrl>
+						</artifactItem>		
+						
+						
+						<artifactItem>
+							<groupId>org.forgerock.commons.ui.libs</groupId>
+							<artifactId>contentflow</artifactId>
+							<version>1.0.2</version>
+							<packaging>js</packaging>
+							<classifier>min</classifier>							
+							<downloadUrl>
+								file://${project.basedir}/forgerock-ui-commons/lib/{artifactId}-{version}-{classifier}.{packaging}
+							</downloadUrl>
+						</artifactItem>		
+						
 					</artifactItems>
 				</configuration>
 				<executions>
@@ -772,6 +950,111 @@
 				<type>css</type>
 				<version>1.15.0</version>
 				<scope>test</scope>
+			</dependency>
+			
+			
+			<!-- OpenIDM libraries -->
+			<dependency>
+				<groupId>org.forgerock.commons.ui.libs</groupId>
+				<artifactId>jsoneditor</artifactId>
+				<version>0.7.9</version>
+				<type>js</type>
+				<classifier>min</classifier>
+			</dependency>
+			<dependency>
+				<groupId>org.forgerock.commons.ui.libs</groupId>
+				<artifactId>jquery-cron</artifactId>
+				<version>0.1.4.1</version>
+				<type>js</type>
+			</dependency>
+			<dependency>
+				<groupId>org.forgerock.commons.ui.libs</groupId>
+				<artifactId>bootstrap-tabdrop</artifactId>
+				<version>master</version>
+				<type>js</type>
+			</dependency>
+			<dependency>
+				<groupId>org.forgerock.commons.ui.libs</groupId>
+				<artifactId>d3</artifactId>
+				<version>3.5.5</version>
+				<type>js</type>
+				<classifier>min</classifier>
+			</dependency>
+			<dependency>
+				<groupId>org.forgerock.commons.ui.libs</groupId>
+				<artifactId>dimple</artifactId>
+				<version>2.1.2</version>
+				<type>js</type>
+				<classifier>min</classifier>
+			</dependency>
+			<dependency>
+				<groupId>org.forgerock.commons.ui.libs</groupId>
+				<artifactId>dimple</artifactId>
+				<version>2.1.2</version>
+				<type>js</type>
+				<classifier>min</classifier>
+			</dependency>
+			<dependency>
+				<groupId>org.forgerock.commons.ui.libs</groupId>
+				<artifactId>fontawesome-iconpicker</artifactId>
+				<version>1.0.0</version>
+				<type>js</type>
+				<classifier>min</classifier>
+			</dependency>
+			<dependency>
+				<groupId>org.forgerock.commons.ui.libs</groupId>
+				<artifactId>fontawesome-iconpicker</artifactId>
+				<version>1.0.0</version>
+				<type>css</type>
+				<classifier>min</classifier>
+			</dependency>
+			<dependency>
+				<groupId>org.forgerock.commons.ui.libs</groupId>
+				<artifactId>dragula</artifactId>
+				<version>3.6.7</version>
+				<type>css</type>
+				<classifier>min</classifier>
+			</dependency>
+			<dependency>
+				<groupId>org.forgerock.commons.ui.libs</groupId>
+				<artifactId>r</artifactId>
+				<version>2.1.10</version>
+				<type>js</type>
+			</dependency>
+			<dependency>
+				<groupId>org.forgerock.commons.ui.libs</groupId>
+				<artifactId>moment-timezone-with-data</artifactId>
+				<version>0.5.4</version>
+				<type>js</type>
+				<classifier>min</classifier>
+			</dependency>
+			<dependency>
+				<groupId>org.forgerock.commons.ui.libs</groupId>
+				<artifactId>bootstrap-datetimepicker</artifactId>
+				<version>4.14.30</version>
+				<type>js</type>
+				<classifier>min</classifier>
+			</dependency>
+			<dependency>
+				<groupId>org.forgerock.commons.ui.libs</groupId>
+				<artifactId>bootstrap-datetimepicker</artifactId>
+				<version>4.14.30</version>
+				<type>css</type>
+				<classifier>min</classifier>
+			</dependency>
+				<dependency>
+				<groupId>org.forgerock.commons.ui.libs</groupId>
+				<artifactId>contentflow</artifactId>
+				<version>1.0.2</version>
+				<type>js</type>
+				<classifier>min</classifier>
+			</dependency>
+				<dependency>
+				<groupId>org.forgerock.commons.ui.libs</groupId>
+				<artifactId>jquery-ui</artifactId>
+				<version>1.11.1</version>
+				<type>js</type>
+				<classifier>min</classifier>
 			</dependency>
 
 		</dependencies>
